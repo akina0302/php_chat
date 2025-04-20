@@ -2,7 +2,9 @@
 
 phpの学習のため簡単なWebページを作成しました。</br>
 
-参考: https://www.php.net/manual/ja/index.php </br>
+参考:
+
+https://www.php.net/manual/ja/index.php </br>
 https://aqua-programdiary.com/php-bbs/
 
 - 画面スクリーニングショット
