@@ -3,7 +3,7 @@
 phpの学習のため簡単なWebページを作成しました。</br>
 
 参考: https://www.php.net/manual/ja/index.php </br>
-https://took.jp/bulletin-board/
+https://aqua-programdiary.com/php-bbs/
 
 - 画面スクリーニングショット
 
