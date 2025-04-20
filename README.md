@@ -1,2 +1,6 @@
+-　概要
+phpの学習のため簡単なWebページを作成しました。
+参考；[https://www.php.net/manual/ja/index.php]</br>
+[https://took.jp/bulletin-board/]
 
-[![Image from Gyazo](https://i.gyazo.com/c7e4e80d1a123f75f4f30bb519008bf6.png)](https://gyazo.com/c7e4e80d1a123f75f4f30bb519008bf6)
+
