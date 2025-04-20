@@ -2,6 +2,9 @@
 
 phpの学習のため簡単なWebページを作成しました。</br>
 
+言語：PHP</br>
+DB ：Mysql</br>
+
 参考:
 
 https://www.php.net/manual/ja/index.php </br>
