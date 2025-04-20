@@ -4,7 +4,7 @@ $message_array = [];
 
 // DB接続
 $user = "root";
-$pass = "******";
+$pass = "*****";
 
 try{
 $dbh = new PDO('mysql:host=localhost;dbname=php_chatt', $user, $pass);
@@ -54,25 +54,26 @@ $dbh = null;
   <div class="chat-box">
     <h2>PHPチャット</h2>
 
-    <!-- メッセージ表示エリア -->
-     <?php foreach( $message_array as $message): ?>
-
-    <div class="messages" id="chat-messages">
-      <div class="message">
-       <span><?php echo $message['username']; ?>:</span> 
-       <?php echo $message['message']; ?>
-      </div>
-      <!-- ← ここに新しいメッセージが追加されていく -->
-    </div>
-
-    <?php endforeach; ?>
-
     <!-- メッセージ投稿フォーム -->
     <form class="form" method="POST">
       <input type="text" name="username" placeholder="名前" required>
       <input type="text" name="message" placeholder="メッセージを入力" required>
       <input type="submit" name="button" value="送信">
     </form>
+
+
+    <!-- メッセージ表示エリア -->
+    <?php foreach( $message_array as $message): ?>
+
+      <div class="messages" id="chat-messages">
+        <div class="message">
+        <span><?php echo $message['username']; ?>:</span> 
+        <?php echo $message['message']; ?>
+        </div>
+        <!-- ← ここに新しいメッセージが追加されていく -->
+      </div>
+
+    <?php endforeach; ?>
   </div>
 </body>
 </html>
