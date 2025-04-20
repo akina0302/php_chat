@@ -2,7 +2,7 @@
 
 PHPの学習のため簡単なWebページを作成しました。</br>
 
-言語：PHP</br>
+言語：PHP/HTML/CSS</br>
 DB ：Mysql</br>
 
 参考:
