@@ -10,6 +10,10 @@ DB ：Mysql</br>
 https://www.php.net/manual/ja/index.php </br>
 https://aqua-programdiary.com/php-bbs/
 
+
+- 仕様
+名前とテキストを入力し送信ボタンを押すとフォーム下部に表示される
+
 - 画面スクリーニングショット
 
 [![Image from Gyazo](https://i.gyazo.com/68ae69773c75cae29d73588c3142b5ec.png)](https://gyazo.com/68ae69773c75cae29d73588c3142b5ec)
